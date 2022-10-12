@@ -132,10 +132,10 @@ def musicWindow():
     Stop.place(x=200,y=200)
 
     ResumeButton = Button(window,text='Resume',width=10,bd=1,bg='SkyBlue',font=("Calibri",10),command=resume)
-    ResumeButton.place(x=30,y=250)
+    ResumeButton.place(x=30,y=225)
 
     PauseButton = Button(window,text='Pause',width=10,bd=1,bg='SkyBlue',font=("Calibri",10),command=pause)
-    PauseButton.place(x=200,y=250)
+    PauseButton.place(x=200,y=225)
 
     Upload = Button(window,text='Upload',bd=1,width=10,bg='SkyBlue',font=("Calibri",10),command=browseFiles)
     Upload.place(x=30,y=250)
