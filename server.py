@@ -15,6 +15,11 @@ SERVER = None
 BUFFER_SIZE= 4096
 clients = {}
 
+is_dir_exists = os.path.isdir('shared_files')
+if(not is_dir_exists):
+    os.makedirs('shared_files')
+
+
 def handleClient(client,client_name):
     global clients
     global BUFFER_SIZE
